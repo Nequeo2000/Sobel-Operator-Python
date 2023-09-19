@@ -1,4 +1,4 @@
-# Sobel-Operator-Python
+# SobelOperatorPython
 A python3 implementation of the Sobel Operator
 
 ## Wikipedia article
