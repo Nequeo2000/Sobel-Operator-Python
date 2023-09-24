@@ -8,7 +8,7 @@ def sobel(image: np.ndarray):
 
     Returns
     -------
-        ndarray feature mask of dimensions (n-1),(m-1)
+        ndarray feature mask of dimensions (n-2),(m-2)
     """
     featureMask = np.ndarray(shape=(image.shape[0]-2,image.shape[1]-2))
 
@@ -23,5 +23,4 @@ def sobel(image: np.ndarray):
                                                             [-1,-2,-1]])))
 
             featureMask[i-1][y-1] = np.sqrt(np.power(gx,2)+np.power(gy,2))
-    featureMask = (featureMask/np.max(featureMask))*255
     return featureMask
