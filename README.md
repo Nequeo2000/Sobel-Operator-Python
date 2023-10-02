@@ -10,3 +10,6 @@ A python3 implementation of the Sobel Operator
 
 ### Sobel Operator Applied
 ![](https://github.com/Nequeo2000/Sobel-Operator-Python/blob/main/images/image2.png?raw=true)
+
+### ```fastSobel()``` Method Applied
+![](https://github.com/Nequeo2000/Sobel-Operator-Python/blob/main/images/image3.png?raw=true)
